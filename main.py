@@ -17,4 +17,4 @@ for contour in contours:
     img2 = cv2.resize(img2, (w, h))
     img1[y:y + h, x:x + w] = img2
 
-cv2.imwrite('picture.jpg', img1)
+cv2.imwrite('output.jpg', img1)
